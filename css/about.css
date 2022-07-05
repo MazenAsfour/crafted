@@ -1,0 +1,48 @@
+#rel{
+    position: relative;
+}
+#form{
+    width:36.7%;
+    position: absolute;
+    height: 165%;
+    padding: 1%;
+    background-color:rgb(122 180 233);
+    display: none;
+    border-radius: 3px;
+}
+#form .form ul li input{
+    width:97%;
+    padding:1%;
+    height: 30%;
+    padding: 5%;
+    margin-top:6%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2vw;
+}
+#sub{
+    width:70%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding:2%;
+    margin:7% 15%;
+    border-radius:10px;
+    font-size: 20px;
+}
+#icon{
+    top:3%;
+    color: black;
+    position: relative;
+    left:92%;
+    font-size: 1.6vw;  
+    margin-bottom: 0;
+    cursor: pointer;
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0; 
+}
+#icon:hover{
+    color: blue;
+}
